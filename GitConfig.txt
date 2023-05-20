@@ -1,0 +1,22 @@
+********************** Checar credenciais **********************
+git config user.name
+git config user.email
+
+********************* Remover credenciais **********************
+gerenciador de credenciais
+Credenciais  Windows> Remover
+
+************************** Configurar **************************
+git config --global user.name "ChristopherM51"
+git config --global user.email "christophermathues1@hotmail.com" 
+copiar e colar dados do repositorio criado no git
+
+Exemplo:
+git remote add origin https://github.com/ChristopherM51/Tec-Dev-2023.git
+git branch -M main
+git push -u origin main
+
+*********** Comitar (Add File to Git) **************************
+git init //Cria repositorio local
+git add . //Adiciona 
+git commit -m "observação" //
