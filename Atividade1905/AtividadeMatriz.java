@@ -57,9 +57,9 @@ public class AtividadeMatriz {
 
         // Sortear um valor entre 0 e 1000
 
-        int valorAleatorio = rd.nextInt(1000);
         System.out.println("Chute um valor entre 0 e 1000");
         System.out.println("Aperte CTRL+C a qualquer momento para parar.");
+        int valorAleatorio = rd.nextInt(1000);
         int chute = sc.nextInt();
         int i = 1;
         while (valorAleatorio != chute) {
